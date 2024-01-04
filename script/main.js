@@ -10,7 +10,7 @@ if (!localStorage.getItem("name")) {
     setUserName();
 } else {
 const storedName = localStorage.getItem("name");
-myHeading.textContent = `mozilla is fire, $(storedName)` ;
+myHeading.textContent = `mozill is fire, $(storedName)` ;
 }
 
 myButton.onclick = () => {
